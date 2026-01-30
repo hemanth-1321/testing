@@ -1,0 +1,5 @@
+CREATE TABLE events (
+  id TEXT PRIMARY KEY,
+  payload JSONB NOT NULL,
+  created_at TIMESTAMP DEFAULT NOW()
+);
